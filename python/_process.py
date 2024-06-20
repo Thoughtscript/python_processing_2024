@@ -30,7 +30,6 @@ if __name__ == '__main__':
             print(str(args.bid) + "." + pid + ".t_two thread local data: " + str(t_two_data.x))
             t_two.run()
 
-
         def p_example(pid):
             p = multiprocessing.Process(target=t_example, args=(pid,))
             p.start()

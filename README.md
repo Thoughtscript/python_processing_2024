@@ -8,6 +8,9 @@ Quick and brief review of some important Python Concurrency, Fork, and Threading
 
 ```bash
 docker-compose up
+
+# If using Docker Compose Engine V2:
+docker compose up
 ```
 
 > The container will exit after it's done running.
